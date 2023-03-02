@@ -65,6 +65,7 @@ build out any helper methods if needed.
   - Return name
   - Names must be of type `str`
   - Names must be between 1 and 15 characters, inclusive
+  - if you are using exceptions comment out the test on lines 32 - 35 in the customer_test.py and uncomment lines 37 - 45
 
 #### Coffee
 
@@ -74,6 +75,7 @@ build out any helper methods if needed.
   - Returns the coffee's name
   - Should not be able to change after the coffee is created
   - hint: hasattr()
+  - if you are using exceptions comment out the test on lines 20 - 24 in the coffee_test.py and uncomment lines 26 - 30
 
 #### Order
 
