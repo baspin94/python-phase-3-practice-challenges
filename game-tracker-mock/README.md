@@ -65,6 +65,7 @@ build out any helper methods if needed.
 - `Game property title`
   - Returns the `Game`'s title
   - Titles must be strings greater than 0 characters
+  - if you are using exceptions comment out the test on lines 25 - 32 in the game_test.py and uncomment lines 34 - 38
 
 #### Player
 
@@ -75,6 +76,7 @@ build out any helper methods if needed.
   - Returns the Player's username
   - Usernames must be strings between 2 and 16 characters,
     inclusive
+  - if you are using exceptions comment out the test on lines 25 - 29 in the player_test.py and uncomment lines 37 - 44
 
 #### Result
 
@@ -131,25 +133,9 @@ build out any helper methods if needed.
   - To average scores, add all result scores together for the player and divide by the total number
     of results for the player.
 
-#### Player
+#### Bonus: Aggregate and Association Method
 
 - `Player classmethod highest_scored(game)`
   - Returns the `Player` instance with the highest average game score.
   - hint: will need a way to remember all `Player` objects
   - hint: do you have a method to get the average score on a game for a particular player?
-
-### Bonus: For any invalid inputs raise an `Exception`.
-
-Uncomment the following lines in the test files:
-
-#### player_tests.py
-
-- lines 0 - 0
-
-#### game_tests.py
-
-- lines 34 - 38
-
-#### result_tests.py
-
-- lines 0 - 0
